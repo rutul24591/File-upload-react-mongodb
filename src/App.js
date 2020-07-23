@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
+import FileUpload from './File-Upload';
 
 function App() {
   return (
@@ -10,6 +13,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <FileUpload />
         <a
           className="App-link"
           href="https://reactjs.org"
